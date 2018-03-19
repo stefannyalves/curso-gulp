@@ -1,0 +1,25 @@
+1. nodejs instala
+2. na raiz do projeto npm init para criar o arquivo package.json
+3. instala o gulp npm install gulp@3.9.0 --save-dev
+4. para executar o gulp adicionar no package.json o script "gulp": "gulp"
+5. criar o arquivo  gulpfile.js na raiz do projeto
+6. instalar puglin para otimização npm install gulp-imagemin@2.3.0 --save-dev
+
+
+
+
+
+
+
+*** Para executar npm run gulp
+
+** Lembre-se que --save-dev é o tipo de
+ dependência que só diz respeito ao 
+ desenvolvedor. Se por acaso, a 
+ dependência fosse uma dependência da 
+ aplicação (que deveria estar disponível 
+ quando a aplicação fosse para o ar) 
+ usaríamos --save e a dependência seria 
+ adicionada em dependencies e não em 
+ devDependencies. Como nossa aplicação 
+ não é feita em Node.js e usamos o Node.js apenas para o Gulp, usamos --save-dev.
